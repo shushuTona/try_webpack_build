@@ -1,0 +1,16 @@
+{
+  "name": "bundle_without_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle:prod": "node ./bundle.js prod",
+    "bundle:dev": "node ./bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.74.0"
+  }
+}
